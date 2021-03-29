@@ -99,13 +99,13 @@ export class Persona{
 
     public imprimirPersona():void{
         console.log("Soy",this._nombre,'',this._apellidos,
-                    "tengo",this._edad,'',"y cumplo años el",this._cumpleaños,
-                    "soy",this._sexo,'',"y mi dni es",this._dni,
-                    "mi color favorito es",this._colorFavorito,
-                    "vivo en",this._direcciones,
-                    "mi mail es",this._mails,
-                    "mi teléfono es",this._telefonos,
-                    "y quiero añadir",this._notas);
+                    ", tengo",this._edad,'',"y cumplo años el",this._cumpleaños,
+                    ".Soy",this._sexo,'',"y mi dni es",this._dni,
+                    ".Mi color favorito es el",this._colorFavorito,
+                    ".Vivo en",this._direcciones,
+                    ".Mi mail es",this._mails,
+                    ".Mi teléfono es",this._telefonos,
+                    ".Notas:",this._notas);
     };
 
 
